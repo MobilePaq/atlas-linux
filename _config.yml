@@ -1,0 +1,5 @@
+remote_theme: just-the-docs/just-the-docs
+title: Atlas-Linux Wiki
+description: Wiki for Atlas-Linux project: Porting on portables
+aux_links:
+  "GitHub Repository": "https://github.com/MobilePaq/atlas-linux"
