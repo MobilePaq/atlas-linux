@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 # A list of Sirf Atlas SoCs
+
 | Name | Arch | Clock | Cores | RAM type | Datasheet |
 | ---- | ---- | ----- | ----- | -------- | --------- |
 | Atlas III | ARM | 396MHz + 264MHz | ARM926EJ + "16bit DSP" | SDRAM 1ch | [Electrical Datasheet](/data/AT640.pdf)
