@@ -1,0 +1,63 @@
+---
+layout: default
+title: "MMIO Layout"
+parent: Atlas V 
+description: Internal Registry Memory Mapping/MMIO Layout Atlas V
+nav_order: 1        
+---
+
+# Internal Registry Memory Mapping
+
+|Address Range|Device Mapped|Clock Domain|
+| :- | :- | :- |
+|0x8000\_0000~0x8000\_FFFF|UART0| IOCLK |
+|0x8001\_0000~0x8001\_FFFF|USP0| IOCLK |
+|0x8002\_0000~0x8002\_FFFF|USP1| IOCLK |
+|0x8003\_0000~0x8003\_FFFF|SPI| IOCLK |
+|0x8004\_0000~0x8004\_FFFF|Reserved|-|
+|0x8005\_0000~0x8005\_FFFF|Reserved|-|
+|0x8006\_0000~0x8006\_FFFF|Codec Interface| IOCLK |
+|0x8007\_0000~0x8007\_FFFF|NAND Flash Interface| IOCLK |
+|0x8008\_0000~0x8008\_FFFF|Reserved|-|
+|0x8009\_0000~0x8009\_FFFF|GPIO|IOCLK|
+|0x800A\_0000~0x800A\_FFFF|GPS Interface| IOCLK |
+|0x800B\_0000~0x800B\_FFFF|I2C Interface| IOCLK |
+|0x800C\_0000~0x800C\_FFFF|PCI Bridge| IOCLK |
+|0x800D\_0000~0x800D\_FFFF|PCI_COPY| IOCLK |
+|0x800E\_0000~0x800E\_FFFF|eFuse| IOCLK |
+|Ox800F\_0000~0x800F\_FFFF|PWM| IOCLK |
+|0x8010\_0000~0x8010\_FFFF|UART1| IOCLK|
+|0x8011\_0000~0x8011\_FFFF|Reserved|-|
+|0x8012\_0000~0x8012\_FFFF|TSCIF|IOCLK|
+|0x8013\_0000~0x8013\_FFFF|VPP|SYSCLK|
+|0x8014\_0000~0x8014\_FFFF|Reserved|-|
+|0x8015\_0000~Ox8FFF\_FFFF|Reserved|-|
+|0x9000\_0000~0x9000\_FFFF|RISC Interface|SYSCLK|
+|0x9001\_0000~0x9001\_FFFF|DSP Interface|SYSCLK|
+|0x9002\_0000~0x9002\_FFFF|Interrupt Controller Interface|SYSCLK|
+|0x9003\_0000~0x9003\_FFFF|Resource Sharing Controller|SYSCLK|
+|0x9004\_0000~0x9004\_FFFF|CPUIO2RCT bridge|SYSCLK|
+|0x9005\_0000~0x9005\_FFFF|OS Timer|SYSCLK|
+|0x9006\_0000~0x9006\_FFFF|RTCIO domain|SYSCLK|
+|0x9007\_0000~0x9007\_FFFF|Reset Controller|SYSCLK|
+|0x9008\_0000~0x9008\_FFFF|CLK Controller|SYSCLK|
+|0x9009\_0000~0x9009\_FFFF|Reserved|-|
+|0x900A\_0000~0x97FF\_FFFF|Reserved|-|
+|0x9800\_0000~0x9800\_FFFF|Reserved|-|
+|0x9900\_0000~0x9900\_FFFF|USB|SYSCLK|
+|0x9a00\_0000~0x9FFC\_FFFF|Reserved|-|
+|Ox9FFD\_0000~0x9FFD\_FFFF|DSP/GPS AXI arbiter|SYSCLK|
+|Ox9FFE\_0000~0x9FFE\_FFFF|Level2 AXI arbiter|SYSCLK|
+|Ox9FFF\_0000~0x9FFF\_FFFF|System Arbiter|SYSCLK|
+|0xA000\_0000~0xA000\_FFFF|Memory Controller|SYSCLK|
+|0xA001\_0000~0xA001\_FFFF|ROM Controller|IOCLK|
+|0xA002\_0000~0xA002\_FFFF|Embedded ROM|IOCLK|
+|O0xA003\_0000~0xAFFF\_FFFF|Reserved|-|
+|0xB000\_0000~0xB000\_FFFF|DMA Controller and I/O Bridge|IOCLK|
+|0xB001\_0000~0xBO0F\_FFFF|Reserved|-|
+|0xB800\_0000~0xB800\_FFFF|LCD Controller|SYSCLK|
+|0xB801\_0000~0xB8FF\_FFFF|Reserved|-|
+|0xB900\_0000~0xB9FF\_FFFF|Reserved|-|
+|0xBA00\_0000~0xBA00\_FFFF|Reserved|-|
+|0xBA01\_0000~0xBFFF\_FFFF|Reserved|-|
+
