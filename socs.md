@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atlas SoCs
-parent: Home
+description: "SoCs for Atlas-linux"
 nav_order: 2
 ---
 
