@@ -5,6 +5,7 @@ description: "Sirf Atlas V short description"
 nav_order: 1        
 has_children: true  
 has_toc: true       
+parent: Atlas SoCs
 ---
 
 # Atlas V: A short glance
