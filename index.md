@@ -8,3 +8,5 @@ description: "Atlas-linux: Worst linux expirience you ever had.."
 # Project Atlas-Linux
 This is an attempt to try and run linux on Sirf Atlas family SoCs, primary the AtlasV
 
+*NOTE: I will not develop this project further, although contributions ARE welcome.*
+
